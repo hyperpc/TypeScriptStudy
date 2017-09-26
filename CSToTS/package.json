@@ -1,0 +1,17 @@
+{
+  "name": "cstots",
+  "version": "1.0.0",
+  "description": "Learning TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start":"tsc \"npm run tsc:w\" \"npm run lite\" ", 
+    "lite":"lite-server",
+    "tsc":"tsc",
+    "tsc:w":"tsc -w"
+  },
+  "author": "YangPo",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^4.0.5"
+  }
+}
